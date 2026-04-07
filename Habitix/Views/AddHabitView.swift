@@ -100,7 +100,7 @@ struct AddHabitView: View {
                     Text("Preview")
                 }
             }
-            .navigationTitle("New Habit")
+            .navigationTitle("Add Habit")
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .cancellationAction) {
