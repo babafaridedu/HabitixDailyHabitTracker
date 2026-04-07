@@ -7,7 +7,7 @@ struct MainTabView: View {
         TabView(selection: $selectedTab) {
             HomeView()
                 .tabItem {
-                    Label("Home", systemImage: "house.fill")
+                    Label("App Home", systemImage: "house.fill")
                 }
                 .tag(0)
             
